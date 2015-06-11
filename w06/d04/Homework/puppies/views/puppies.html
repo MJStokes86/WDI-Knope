@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./dist/semantic.css">
+  <title>All Da Puppies</title>
+</head>
+<body>
+
+  <a href='/puppies/new'>Create new puppies</a>
+
+<div class="ui grid centered">
+<div class="ui row">
+  <ul>
+    {{#allDemPuppies}}
+      <li>
+        <a href="/puppies/{{id}}">{{id}} - {{color}} - {{breed}}</a>
+        <img src="{{image}}">
+      </li>
+    {{/allDemPuppies}}
+  </ul>
+  </div>
+  </div>
+
+</body>
+</html>

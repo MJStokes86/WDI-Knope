@@ -1,0 +1,20 @@
+ul li{
+	list-style: none;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: gray;
+	text-align: center;
+	width: 100%;
+
+}
+
+.container {
+	color: red;
+}
+
+header {
+
+}

@@ -1,0 +1,5 @@
+<section>
+  <% @entries.each do |entry| %>
+    <a href="<%="/entries/#{entry.id}"%>"><img src='<%= entry.photo_url %>'></a>
+  <% end %>
+</section>

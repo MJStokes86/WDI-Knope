@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rainbow Me</title>
+  <style type="text/css">
+    body {
+      background-color: rgb(231, 231, 231);
+      padding: 20px 20px;
+      text-align: center;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <label>
+    Sentence
+    <input type="text" name="sentence" />
+    <button>RAINBOW THIS</button>
+  </label>
+  <div class="colors">
+    
+  </div>
+  <script type="text/javascript">
+var colorArray = ['red', 'orange','yellow', 'green', 'blue', 'purple', 'pink'];
+ var body = document.querySelector('body')
+ var button = document.querySelector('button')
+ 
+
+
+button.addEventListener('click', function(event){
+  for ( i = 0; i < colorArray.length; i++){
+var input = document.querySelector('input')
+var h1 = document.createElement('h1');
+var form = input.value;
+console.log(form);
+h1.innerText = form;
+body.appendChild(h1)
+h1.style.color = colorArray[i];
+
+
+}
+})
+
+
+
+
+
+  </script>
+</body>
+</html>

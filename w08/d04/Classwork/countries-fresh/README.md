@@ -1,0 +1,4 @@
+# Country
+
+* capital
+* name

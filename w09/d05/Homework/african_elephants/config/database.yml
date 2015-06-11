@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+
+pool: 5
+
+development:
+  <<: *default
+  database: elephants_development
+
+
+test: 
+  <<: *default
+  database: elephants_test
+
+
+production:
+  <<: *default
+  database: elephants_production
+  username: elephants
+  password: <%= ENV['ELEPHANTS_DATABASE_PASSWORD'] %>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Countries</title>
+</head>
+<body>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="/app.js"></script>
+
+  <form action="/countries" method="GET">
+  <button id="button1">List of Countries</button>
+  </form>
+  <ul id="countryList"></ul>
+  <p>
+  <p>
+  <form action= "/countries/:id" method="GET">
+  <button id="button2">Submit Country</button>
+  </form>
+  <p>
+  <p>
+  <form action="/countries" method="POST">
+  <label>
+  
+  <div>
+  <h2>CREATE A NEW COUNTRY</h2>
+
+  Name:
+  <input type="text" name="name" id="id1" />
+  <p>
+  Capital:
+  <input type="text" name="capital" id="id2" />
+  <p>
+  <button id="button3">Submit</button>
+  <p>
+  </label>
+  </form>
+  <p>
+  <p>
+  <form action="/countries/:id?_method=PUT" method="/POST">
+  <button id="button4">Update a Country</button>
+  </form>
+  <p>
+  <p>
+  <form action="/countries/:id?_method=DELETE">
+  <button id="button5">Delete a Country</button>
+  </form>
+</body>
+</html>

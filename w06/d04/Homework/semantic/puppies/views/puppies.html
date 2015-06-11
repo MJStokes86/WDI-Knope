@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Da Puppies</title>
+</head>
+<body>
+  <a href='/puppies/new'>Create new puppies</a>
+
+  <ul>
+    {{#allDemPuppies}}
+      <li>
+        <a href="/puppies/{{id}}">{{id}} - {{color}} - {{breed}}</a>
+        <img src="{{image}}">
+      </li>
+    {{/allDemPuppies}}
+  </ul>
+</body>
+</html>

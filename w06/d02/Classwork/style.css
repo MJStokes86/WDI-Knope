@@ -1,0 +1,20 @@
+.highlight{
+    color: blue;
+    font-family: Helvetica
+}
+
+.main{
+    color: green;
+    font-family: Helvetica
+}
+
+.signature{
+    color: red;
+    font-family: "Comic Sans Ms"
+}
+
+li{
+display: inline;
+list-style-type: none;
+}
+

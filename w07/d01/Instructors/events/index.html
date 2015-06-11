@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EVENTS!</title>
+</head>
+<body>
+  <button id="blah">Press Me!</button>
+
+  <ul>
+    <li>Gruyere</li>
+    <li>Cheddar</li>
+    <li>Camembert</li>
+  </ul>
+
+  <script type="text/javascript">
+    var button = document.querySelector('button');
+
+    button.innerText = "WOAH!"
+
+    button.addEventListener('click', function(theEventObject) {
+      // create an H1 and then append it to the DOM
+      console.log(theEventObject.target.id);
+      var h1 = document.createElement('h1');
+      h1.innerText = 'HELLO!';
+      document.body.appendChild(h1);
+    })
+
+    var cheeseUl = document.querySelector('ul');
+
+    cheeseUl.addEventListener('click', function(event) {
+      var elt = event.target;
+
+      var h1 = document.createElement('h1');
+      h1.innerText = elt.innerText;
+      document.body.appendChild(h1);
+    });
+
+    // var cheeseLis = document.querySelectorAll('li');
+
+    // for (var i = 0; i < cheeseLis.length; i++) {
+    //   cheeseLis[i].addEventListener('click', function(event) {
+    //     // var cheeseName = cheeseLis[i].innerText;
+    //     var elt = event.target;
+
+    //     var h1 = document.createElement('h1');
+    //     h1.innerText = elt.innerText;
+    //     document.body.appendChild(h1);
+    //   })
+    // }
+
+    // i = 'baloney';
+    // var gruyere = cheeseLis[0];
+    // var cheddar = cheeseLis[1];
+    // var camember = cheeseLis[2];
+
+    // gruyere.addEventListener('click', function(){
+    //   var h1 = document.createElement('h1');
+    //   h1.innerText = 'GRUYERE';
+    //   document.body.appendChild(h1);
+    // });
+
+    // cheddar.addEventListener('click', function(){
+    //   var h1 = document.createElement('h1');
+    //   h1.innerText = 'CHEDDAR';
+    //   document.body.appendChild(h1);
+    // });
+
+    // camember.addEventListener('click', function(){
+    //   var h1 = document.createElement('h1');
+    //   h1.innerText = 'CAMEMBERT';
+    //   document.body.appendChild(h1);
+    // })
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Router</title>
+
+  <script src="https://rawgit.com/flatiron/director/master/build/director.min.js"></script>
+</head>
+<body>
+  
+  <a href="#/sweet">SWEET!</a>
+  <a href="#/gnarly">GNARLY!</a>
+
+  <script>
+
+  var routes = {
+    '/sweet': function(){
+      console.log('SWEET!');
+    },
+    '/gnarly': function(){
+      console.log('GNARLY!');
+    }
+  };
+
+  var router = Router(routes)
+
+  router.init()
+
+  </script>
+</body>
+</html>

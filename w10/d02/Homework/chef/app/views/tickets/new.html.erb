@@ -1,0 +1,23 @@
+<h1>Create a new ticket:</h1>
+
+<form action = "/tickets" method="post">
+<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+<label>
+Menu Item
+<input type = "text" name="menu_item" value="<%= @ticket.menu_item %>" />
+</label>
+<label>
+Comments
+<input type="text" name="comments" value="<%= @ticket.comments %>" />
+</label>
+<label>
+Table Number
+<input type="text" name="table_number" value="<%= @ticket.table_number %>" />
+</label>
+
+
+<button>Submit</button>
+
+
+
+

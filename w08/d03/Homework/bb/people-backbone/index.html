@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PEOPLE</title>
+</head>
+<body>
+
+    <script type="text/template" data-template="person">
+        <h1> My name is {{name}} </h1>
+        <h2> I am {{age}} years old </h2>
+    </script>
+
+    <h1> Use Backbone to update the view if the data changes! </h1>
+    <div data-person="one">
+        <h2> Person 1 </h2>
+        name
+        <input type="text" class="name">
+        <button data-action="change-name">Change Name</button>
+        age
+        <input type="text" class="age">
+        <button data-action="change-age">Change Age</button>
+    </div>
+
+    <div data-section="people">
+    </div>
+
+</body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.js"></script>
+    <script src="./app.js"></script>
+</html>

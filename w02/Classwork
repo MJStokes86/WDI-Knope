@@ -1,0 +1,13 @@
+puppies = [];
+
+puppies.push({
+	name: "fluffy",
+	breed: "golden lab"
+});
+
+puppies.push({
+	name:"jenkins",
+	breed: "italian greyhound"
+});
+
+console.log(puppies);

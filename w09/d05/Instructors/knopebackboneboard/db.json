@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "name": "John Denver",
+      "body": "Rocky Mountain Low",
+      "id": 7
+    },
+    {
+      "name": "Pete Coors",
+      "body": "Rocky Mountain High",
+      "id": 8
+    }
+  ]
+}

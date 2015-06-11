@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<h1> Hey World </h1>    
+    {{#posts}}
+    <h2> <a href="/posts/{{id}}">{{title}}</a></h2>
+    <p> {{contents}}</p>
+    {{/posts}}
+    </br>
+    <a href="/posts/new"> Add a post</a>
+</body>
+</html>

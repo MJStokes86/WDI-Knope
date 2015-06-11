@@ -1,0 +1,25 @@
+<h1>Create a new entry:</h1>
+
+<% if @entry.errors.count > 0 %>
+  <p class="error">Your entry had the following errors: <%= @entry.errors.full_messages.join(', ') %>
+<% end %>
+
+<form action="/entries" method="post">
+  <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+  <label>
+    Author
+    <input type="text" name="author" value="<%= @entry.author %>" />
+  </label>
+
+  <label>
+    Photo Url
+    <input type="url" name="photo_url" value="<%= @entry.photo_url %>" />
+  </label>
+
+  <label>
+    Date Taken
+    <input type="date" name="date_taken" value="<%= @entry.date_taken %>" />
+  </label>
+
+  <button>Save!</button>
+</form>

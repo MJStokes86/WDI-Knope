@@ -1,0 +1,9 @@
+
+
+<h1> You made a new user! Their name is <%= @user.name %> </h1>
+
+<% if @user.gmail? == true %>
+  <h2> This user is using gmail! And their address is <%= @user.email %> </h2>
+<% else %>
+  <h2> This user AIN'T USIN GMAIL, but their addres is <%= @user.email %> </h2>
+<% end %>

@@ -1,0 +1,10 @@
+{
+  "name": "bookie",
+  "version": "0.0.0",
+  "dependencies": {
+    "semantic-ui": "~1.12.1",
+    "mustache": "~2.0.0",
+    "jquery": "~2.1.4",
+    "backbone": "~1.1.2"
+  }
+}

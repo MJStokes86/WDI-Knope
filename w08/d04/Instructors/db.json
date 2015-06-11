@@ -1,0 +1,22 @@
+{
+  "countries": [
+    {
+      "name": "Russia",
+      "population": 5000,
+      "capital": "Moscow",
+      "id": 1
+    },
+    {
+      "name": "disneyland",
+      "population": 4046445,
+      "capital": "Beijing",
+      "id": 4
+    },
+    {
+      "name": "Bolivia",
+      "population": 43420,
+      "capital": "La Paz",
+      "id": 7
+    }
+  ]
+}

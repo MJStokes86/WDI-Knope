@@ -1,0 +1,9 @@
+{
+  "name": "countries",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.7.2"
+  }
+}

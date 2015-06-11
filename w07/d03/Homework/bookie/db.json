@@ -1,0 +1,10 @@
+{
+  "debts": [
+    {
+      "client_name": "Joey Fantone",
+      "amount": 5000,
+      "paid": false,
+      "id": "6d69c23e-b091-4daf-82a0-32a4db05a36c"
+    }
+  ]
+}

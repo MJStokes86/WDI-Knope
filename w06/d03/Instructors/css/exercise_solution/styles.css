@@ -1,0 +1,35 @@
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.container {
+  position: relative;
+}
+
+nav {
+  position: absolute;
+}
+
+ul li:hover{
+  color: #8BFF0D;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  margin-left: 200px;
+  width: 800px;
+  margin-top: 10px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  /*margin: 0 auto;*/
+  text-align: center;
+  bottom: 0;
+  background-color: rgba(0, 255, 252, .2);
+}

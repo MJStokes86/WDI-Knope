@@ -1,0 +1,5 @@
+<script src='./controlFlow.txt'></script>
+
+var life = myLife;
+
+

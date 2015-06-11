@@ -1,0 +1,1 @@
+Rails.application.congfig.assets.version = '1.0'

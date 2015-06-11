@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset = "UTF-8">
+	<title>EVENTS!</title>
+</head>
+<body>
+<button>Press Me!</button>
+
+<ul>
+  <li>Gruyere</li>
+  <li>Cheddar</li>
+  <li>Camembert</li>
+  </ul>
+
+
+<script type="text/javascript">
+	
+  var button = document.querySelector('button')
+	document.querySelector('button')
+	button.innerText = 'WOAH!'
+
+	button.addEventListener('click', function(){
+		var h1 = document.createElement('h1');
+    var body = document.querySelector('body')
+    h1.textContent="Hello!"
+    body.appendChild(h1);
+
+})
+
+
+
+  var li = document.getElementsByTagName('li')
+
+for(var i=0; i < li.length; i++){
+  li[i].addEventListener('click', function(event){
+    var elt = event.target
+    console.log(event.target)
+
+var h1 = document.createElement('h1');
+       h1.innerText = elt.innerText;
+       document.body.appendChild(h1);
+
+  })
+}
+
+i = 'baloney'
+
+  var gruyere = li[0];
+  var cheddar = li[1];
+  var camembert = li[2];
+
+  // gruyere.addEventListener('click', function() {
+  //   var h1 = document.createElement('h1')
+  //   h1.innerText = "Gruyere";
+  //   document.body.appendChild(h1)
+  // })
+
+  // cheddar.addEventListener('click', function() {
+  //   var h1 = document.createElement('h1')
+  //   h1.innerText = "Cheddar";
+  //   document.body.appendChild(h1)
+  // })
+
+  // camembert.addEventListener('click', function() {
+  //   var h1 = document.createElement('h1')
+  //   h1.innerText = "Camembert";
+  //   document.body.appendChild(h1)
+  // })
+
+</script>
+
+</body>
+</html>
+
+

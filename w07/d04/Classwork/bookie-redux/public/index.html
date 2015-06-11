@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Countries</title>
+  <link rel="stylesheet" type="text/css" href="/bower_components/semantic-ui/dist/semantic.css">
+</head>
+<body>
+
+  <main class="ui page grid">
+    <section class="eight column wide centered">
+      <h1>Who owes me?</h1>
+      <table class="ui table celled striped">
+        <thead>
+          <th>Name</th>
+          <th>Amount</th>
+          <th>Actions</th>
+        </thead>
+        <tbody>
+          <tr data-id = '{{id}}'>
+            <td contenteditable='true' ></td>
+            <td><i class="icon dollar"></i><span contenteditable='true'></span></td>
+            <td>
+              <button data-action = 'saved' class='ui button small green'>Save</button>
+              <button class='ui button small red'>Iced</button>
+            </td>
+          </tr>
+
+          <!-- <tr>
+            <td contenteditable='true' >Jimmy Baluca</td>
+            <td ><i class="icon dollar"></i><span contenteditable='true'>800</span></td>
+            <td>
+              <button data-action = 'saved' class='ui button small green'>Save</button>
+              <button class='ui button small red'>Iced</button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+      <a class="ui label blue" id="blueButton">
+        <i class="plus icon"></i> Add new...
+      </a>
+    </section>
+  </main>
+
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="/app.js"></script>
+</body>
+</html>

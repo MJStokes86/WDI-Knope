@@ -1,0 +1,35 @@
+{
+  "countries": [
+    {
+      "name": "England",
+      "capital": "London",
+      "id": "74484806-480e-4e51-81e8-652711192ef5"
+    },
+    {
+      "name": "United States",
+      "capital": "Washington D.C.",
+      "id": "111c2a70-f7c2-424e-be5b-9f3a69ba058f"
+    },
+    {
+      "name": "Argentina",
+      "capital": "Buenos Aires",
+      "id": "3ffd0036-918d-4d1c-a0e7-bbfac7934773"
+    },
+    {
+      "name": "Costa Rica",
+      "capital": "San José",
+      "id": "39775f4a-bf56-43ab-b2eb-7674f13c69f4"
+    },
+    {
+      "capital": "Cairo",
+      "name": "Egypt",
+      "id": "998b93f7-3c58-402f-a7f7-168faadc641a"
+    },
+    {
+      "capital": "Something",
+      "name": "Luxemberg",
+      "id": "9935c038-954d-4db5-b364-7772097311b2"
+    }
+  ],
+  "google.com": []
+}

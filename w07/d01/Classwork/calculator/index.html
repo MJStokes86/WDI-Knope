@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="./semantic/semantic.css">
+</head>
+<body>
+  <main class="ui page grid centered">
+    <div class="row">
+      <h1>Calculator</h1>
+    </div>
+    <div class="row">
+      <div class="ui segment form raised six wide column">
+        <div class="three fields">
+          <div class="field">
+            <label>
+              <input type="text" placeholder="1" >
+            </label>
+          </div>
+
+          <div class="field">
+            <select id='Operator'>
+              <option value="">Operation</option>
+              <option value="1">+</option>
+              <option value="2">-</option>
+              <option value="3">*</option>
+              <option value="4">/</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>
+              <input type="text" placeholder="1" >
+            </label>
+          </div>
+        </div>
+
+        <button class="ui button">Calculate</button>
+        
+        <script type = "text/javascript">
+        var button = document.querySelector('button');
+        var body = document.querySelector('body');
+        var operate = document.getElementById('Operator');
+        
+
+
+        button.addEventListener('click', function(event){
+
+          var select = document.getElementById('Operator').value
+
+          var input1 = document.querySelectorAll('input')[0].value
+          var input2 = document.querySelectorAll('input')[1].value
+          var result = document.getElementById('h4')
+          var num1 = parseInt(input1);
+          var num2 = parseInt(input2);
+          // var sub = num1 - num2;
+
+          // var multiply = num1 * num2;
+          // var divide = num1 / num2;
+          // var elt = event.target
+          // console.log(event.target)
+          
+          console.log(select)
+          
+          switch(select) {
+         
+            case '1': 
+            var sum = num1 + num2;
+            var sumResult = sum.toString()
+            console.log(sum)
+            result.innerText = sumResult
+            break;
+
+            case '2':
+            var sub = num1 - num2;
+            var subResult = sub.toString()
+            console.log(sub)
+            result.innerText = subResult
+            break;
+
+            case '3':
+            var mult = num1 * num2;
+            var multResult = mult.toString()
+            console.log(mult)
+            result.innerText = multResult
+            break;
+
+            case '4':
+            var div = num1 / num2;
+            var divResult = div.toString()
+            console.log(div)
+            result.innerText = divResult
+            break;
+
+            default:
+
+            console.log("Error!");
+
+          }
+
+
+        })
+
+        </script>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="ui raised segment four wide column">
+        <h4 id='h4'>Result: </h4>
+      </div>
+    </div>    
+  </main>
+</body>
+</html>

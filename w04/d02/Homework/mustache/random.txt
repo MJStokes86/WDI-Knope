@@ -1,0 +1,11 @@
+
+
+{{#blog}}
+	
+{{author}}
+{{subject}}
+{{tag}}
+
+{{/blog}}
+
+

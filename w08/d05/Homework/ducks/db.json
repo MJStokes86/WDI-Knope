@@ -1,0 +1,75 @@
+{
+  "ducks": [
+    {
+      "name": "Charlie Conway",
+      "img": "http://images2.fanpop.com/images/photos/3800000/Charlie-Conway-the-mighty-duck-movies-3878177-540-283.jpg",
+      "position": "Center",
+      "number": 96,
+      "id": 1
+    },
+    {
+      "name": "Fulton Reed",
+      "img": "http://egotvonline.com/wp-content/uploads/2011/06/fulton-reed.jpg",
+      "position": "Defense",
+      "number": 44,
+      "id": 2
+    },
+    {
+      "name": "Greg Goldberg",
+      "img": "https://pbs.twimg.com/profile_images/378800000776024306/f88939c97c50921611ecfbdf81076102.jpeg",
+      "position": "Goalie",
+      "number": 33,
+      "id": 3
+    },
+    {
+      "name": "Les Averman",
+      "img": "http://showbizgeek.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-07-at-17.40.24.png",
+      "position": "Wing",
+      "number": 4,
+      "id": 4
+    },
+    {
+      "name": "Jesse Hall",
+      "img": "http://baltimoresportsreport.com/wp-content/uploads/2013/10/jesse-hall.jpg",
+      "position": "Center",
+      "number": "9",
+      "id": 5
+    },
+    {
+      "name": "Guy Germaine",
+      "position": "Defense",
+      "img": "http://static.celebuzz.com/uploads/legacy/celebuzz/default/msg-126401959664-3.jpg",
+      "number": "13",
+      "id": 6
+    },
+    {
+      "name": "Adam Banks",
+      "img": "https://pbs.twimg.com/profile_images/378800000001434295/2478032804327a91317291620d77b9c4.jpeg",
+      "position": "Wing",
+      "number": "99",
+      "id": 7
+    },
+    {
+      "name": "Connie Moreau",
+      "img": "http://i.imgur.com/iIVYsnA.jpg?1",
+      "position": "Wing",
+      "number": "18",
+      "id": 8
+    },
+    {
+      "name": "Luis Mendoza",
+      "position": "Center",
+      "img": "http://img2.wikia.nocookie.net/__cb20120317195656/disney/images/0/07/Luis_Mendoza.jpg",
+      "number": "22",
+      "id": 9
+    },
+    {
+      "name": "Julie Gaffney",
+      "img": "http://img1.wikia.nocookie.net/__cb20120317012103/disney/images/0/02/Julie_the_cat_Gaffney.jpg",
+      "position": "Goalie",
+      "number": "6",
+      "id": 10
+    }
+  ],
+  "dist": []
+}

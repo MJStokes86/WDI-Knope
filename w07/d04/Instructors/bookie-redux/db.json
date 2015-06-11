@@ -1,0 +1,20 @@
+{
+  "debts": [
+    {
+      "client_name": "Joey Fatone",
+      "amount": 500,
+      "paid": false,
+      "id": "6d69c23e-b091-4daf-82a0-32a4db05a36c"
+    },
+    {
+      "amount": 1000,
+      "id": "0ec0165c-6805-4044-a43f-75b6c53f50bd",
+      "client_name": "Timmy Two Times"
+    },
+    {
+      "amount": 40000,
+      "id": "6b0e97a5-c422-46e8-864a-6f18c74cb7e0",
+      "client_name": "Lilly Left-Eye"
+    }
+  ]
+}

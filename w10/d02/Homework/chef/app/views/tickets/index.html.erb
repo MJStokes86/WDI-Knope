@@ -1,0 +1,16 @@
+<h1>Tickets</h1>
+
+<section>
+<% @tickets.each do |ticket| %>
+
+<a href="/#{ticket.id/edit}">
+<h3><%="#{ticket.menu_item}"%></h3>
+<h3><%="#{ticket.comments}"%></h3>
+<h3><%="#{ticket.table_number}"%></h3>
+</a>
+
+<% end %>
+
+<a href="<%="/tickets/new"%>"><button>Click Here</button></a>
+
+</section>

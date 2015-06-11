@@ -1,0 +1,3 @@
+- statistics - how many people still owe me - how much total money
+- interest is compounded every 30 seconds - annual interest of 500%
+- due dates for debts - html5 date input - when they are overdue make the row red

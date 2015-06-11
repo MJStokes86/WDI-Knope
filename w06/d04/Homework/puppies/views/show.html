@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Show page for Puppies</title>
+</head>
+<body>
+
+  <form method="POST" action="/puppies/{{id}}?_method=PUT">
+    <input type="text" name="breed" value="{{breed}}">
+    <input type="text" name="color" value="{{color}}">
+    <input type="text" name="iamge" value="{{image}}">
+
+    <button type="submit">Update</button>
+  </form>
+
+  <form method="POST" action="/puppies/{{id}}?_method=DELETE">
+    <button type="submit">Delete</button>
+  </form>
+</body>
+</html>

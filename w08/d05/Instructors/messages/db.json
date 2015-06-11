@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "name": "Fritz",
+      "body": "Hi students!",
+      "id": 1
+    },
+    {
+      "name": "what",
+      "body": "i dont know",
+      "id": 2
+    },
+    {
+      "name": "daniel",
+      "body": "sup bros and galzzz",
+      "id": 3
+    }
+  ]
+}

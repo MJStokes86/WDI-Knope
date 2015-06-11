@@ -1,0 +1,48 @@
+p {
+  color: red;
+}
+
+.sheen {
+  float: left;
+}
+
+.narrowtext {
+  width: 400px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.list li {
+  float: left;
+  list-style: none;
+  margin-right: 15px;
+  border: 1px dashed red;
+  padding: 5px;
+}
+
+#redbox {
+  /*position: absolute;*/
+  /*left: 150px;*/
+  /*bottom: 0px;*/
+  height: 30px;
+  width: 30px;
+  border: 2px solid red;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 5px 5px 3px 4px #696969;
+  box-shadow: 5px 5px 3px 4px #696969;
+}
+
+.container {
+  position: relative;
+}
+
+#first-paragraph{
+  position: absolute;
+}
+
