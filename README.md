@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Web Development Immersive: Knope
 ============================
 
@@ -24,3 +25,6 @@ ___
 
 ###Olivia Grosvenor - Course Producer
 * <oliviag@generalassemb.ly>
+=======
+# WDI-Knope
+>>>>>>> 7e33f0e12a92cd9dc58d9d4f936c03b1d3081581
